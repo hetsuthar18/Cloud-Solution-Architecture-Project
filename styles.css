@@ -1,0 +1,128 @@
+body {
+    background: url('aws.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+.navbar {
+    background-color: #6883A6; /* Main color for the navbar */
+}
+
+.nav-link, .navbar-brand {
+    color: #ffffff !important; /* White text for the navbar links */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency for the container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px #08cddf1a; /* Subtle shadow for the container */
+    border: 2px solid #526A7A; /* Slightly darker shade for the border */
+}
+
+h1.display-4 {
+    color: #526A7A; /* Slightly darker shade for the main heading */
+    font-family: 'Playfair Display', serif; /* Apply the Playfair Display font */
+    text-align: center; /* Center align the heading */
+    font-size: 1.5rem; /* Reduce the font size */
+    margin-bottom: 20px; /* Reduce the margin */
+}
+
+label {
+    color: #526A7A; /* Slightly darker shade for the labels */
+    font-family: 'Playfair Display', serif; /* Apply the Playfair Display font */
+}
+
+.form-control, .btn-outline-dark {
+    border-radius: 5px; /* Rounded corners for form inputs and buttons */
+}
+
+.btn-outline-dark {
+    border-color: #526A7A; /* Main color for the button border */
+    color: #526A7A; /* Main color for the button text */
+}
+
+.btn-outline-dark:hover {
+    background-color: #6883A7; /* Main color for the button background on hover */
+    color: #ffffff; /* White text for the button on hover */
+}
+
+.table {
+    margin-top: 20px;
+    border: 2px solid #526A7A; /* Slightly darker shade for the table border */
+    border-radius: 10px; /* Rounded corners for the table */
+}
+
+.table thead {
+    background-color: #6883A6; /* Main color for the table header */
+    color: #ffffff; /* White text for the table header */
+}
+
+.alert-success {
+    background-color: #d1e4f0; /* Light background to complement the main color for success alert */
+    color: #526A7A; /* Slightly darker shade for the success alert text */
+}
+
+.alert-danger {
+    background-color: #f2dede; /* Light red background for danger alert */
+    color: #a94442; /* Dark red text for danger alert */
+}
+
+.quote {
+    position: relative;
+    width: 100%; /* Adjusted width */
+    max-width: 100%; /* Adjusted max-width */
+    margin: 0 auto; /* Centering the container */
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; /* Changed to simple rounded corners */
+    overflow: hidden;
+    text-align: center;
+    word-wrap: no-wrap;
+    filter: drop-shadow(-20px 20px 5px #006793);
+    background-color: rgba(255,255,255,0.8); /* Adding a background color */
+    padding: 10px 20px; /* Adjusted padding */
+    height: auto; /* Adjust height */
+}
+
+.quote figure {
+    margin: auto;
+    font-size: clamp(8vh, 8vh, 4rem);
+    filter: drop-shadow(0 0 5px #006793);
+}
+
+.quote blockquote span.wave {
+    background: linear-gradient(30deg, rgba(0, 0, 0, 0), #014866, rgba(0, 0, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: sheen 10s linear infinite, shadow-move 5s linear infinite; /* Adjusted animation duration */
+    /* filter: drop-shadow(0 0 5px #006793); /* Added shadow */
+ } */ */
+
+.quote blockquote {
+    color: #00354c; /* Ensure text is visible */
+}
+
+.quote figcaption {
+    font-size: clamp(6vh, 6vh, 3rem);
+    text-align: right;
+    margin-top: 20px; /* Adding margin to separate from the main text */
+}
+
+@keyframes sheen {
+    100% {
+        background-position: 150% 0%;
+    }
+}
+
+@keyframes shadow-move {
+    0% {
+        text-shadow: 10px 0 15px rgba(0, 0, 0, 0.2);
+    }
+    30% {
+        text-shadow: -50px 0 15px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        text-shadow: 10px 0 15px rgba(0, 0, 0, 0.2);
+    }
+}
